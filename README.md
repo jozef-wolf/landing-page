@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Working on landing page project
 
 ## Using REACT
 
