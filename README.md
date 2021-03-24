@@ -1,3 +1,5 @@
 # Working on landing-page project
 
-##Using: React and styled-components
+## Using REACT
+
+### learning REDUX and styled-components
