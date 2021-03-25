@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Burger from "./Burger";
-import { FaYinYang } from "react-icons/fa";
+import { IoTriangle } from "react-icons/io5";
 
 const Nav = styled.nav`
   width: 100%;
@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <Nav>
       <div className="logo">
-        <FaYinYang />
+        <IoTriangle />
       </div>
       <Burger />
     </Nav>
