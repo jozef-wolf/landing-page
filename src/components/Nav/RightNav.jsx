@@ -9,6 +9,20 @@ const Ul = styled.ul`
   li {
     padding: 20px 10px;
   }
+  @media (max-width: 768px) {
+    flex-flow: column nowrap;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 300px;
+    padding-top: 3.5rem;
+
+    li {
+      color: white;
+    }
+  }
 `;
 
 const RightNav = () => {
