@@ -15,6 +15,7 @@ const Box = styled.div`
     font-size: 50px;
     letter-spacing: 15px;
     font-weight: bolder;
+    text-align: center;
   }
 `;
 
