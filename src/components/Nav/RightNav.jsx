@@ -4,16 +4,13 @@ import styled from "styled-components";
 const Ul = styled.ul`
   list-style: none;
   display: flex;
+  align-items: center;
   flex-flow: row nowrap;
 
   li {
     padding: 20px 10px;
   }
-  li:last-child,
-  li:nth-child(4) {
-    border: 1px solid black;
-    border-radius: 20px;
-  }
+
   @media (max-width: 768px) {
     flex-flow: column nowrap;
     background-color: black;
@@ -28,6 +25,22 @@ const Ul = styled.ul`
 
     li {
       color: white;
+    }
+  }
+  @media (min-width: 768px) {
+    li:last-child,
+    li:nth-child(4) {
+      background-color: white;
+
+      border-radius: 30px;
+      border: none;
+      padding: 10px;
+      border: 2px solid #000000;
+    }
+    li:last-child {
+      background-color: #000000;
+      color: white;
+      margin-left: 10px;
     }
   }
 `;

@@ -22,7 +22,7 @@ const StyledBurger = styled.div`
     height: 0.25rem;
     background-color: ${({ open }) => (open ? "lightgrey" : "black")};
     transform-origin: 1px;
-    transition: all 0.2s linear;
+    transition: all 0.4s linear;
 
     &:nth-child(1) {
       transform: ${({ open }) => (open ? "rotate(45deg)" : "rotate(0)")};
