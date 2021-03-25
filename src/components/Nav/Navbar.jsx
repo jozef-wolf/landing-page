@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-
 import Burger from "./Burger";
+import { FaYinYang } from "react-icons/fa";
 
 const Nav = styled.nav`
   width: 100%;
@@ -12,14 +12,24 @@ const Nav = styled.nav`
   justify-content: space-between;
 
   .logo {
-    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+  }
+  .logo::after {
+    content: "J.W.";
+    font-size: 30px;
+    padding-left: 10px;
   }
 `;
 
 const Navbar = () => {
   return (
     <Nav>
-      <div className="logo">Nav bar</div>
+      <div className="logo">
+        <FaYinYang />
+      </div>
       <Burger />
     </Nav>
   );
