@@ -10,6 +10,7 @@ const Ul = styled.ul`
     padding: 20px 10px;
   }
   @media (max-width: 768px) {
+    display: none;
     flex-flow: column nowrap;
     background-color: black;
     position: fixed;
