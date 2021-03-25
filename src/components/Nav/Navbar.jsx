@@ -18,8 +18,8 @@ const Nav = styled.nav`
     font-size: 40px;
   }
   .logo::after {
-    content: "J.W.";
-    font-size: 30px;
+    content: "Welcome";
+    font-size: 25px;
     padding-left: 10px;
   }
 `;
