@@ -9,6 +9,11 @@ const Ul = styled.ul`
   li {
     padding: 20px 10px;
   }
+  li:last-child, li:nth-child(4){
+      border: 1px solid black;
+      border-radius: 20px;
+  }
+}
   @media (max-width: 768px) {
     flex-flow: column nowrap;
     background-color: black;
@@ -24,6 +29,7 @@ const Ul = styled.ul`
     li {
       color: white;
     }
+    
   }
 `;
 
