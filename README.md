@@ -5,5 +5,5 @@
 ### learning REDUX and styled-components
 
 ![](visual.jpg)
-![](mobile.JPG)
-![](mobilemenu.JPG)
+![](mobile.JPG) ![](mobilemenu.JPG)
+
