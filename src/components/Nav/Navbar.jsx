@@ -17,11 +17,6 @@ const Nav = styled.nav`
     align-items: center;
     font-size: 40px;
   }
-  .logo::after {
-    content: "Welcome";
-    font-size: 25px;
-    padding-left: 10px;
-  }
 `;
 
 const Navbar = () => {
