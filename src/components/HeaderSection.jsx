@@ -17,6 +17,13 @@ const Box = styled.div`
     font-weight: bolder;
     text-align: center;
   }
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 30px;
+      text-align: left;
+      padding-left: 10px;
+    }
+  } ;
 `;
 
 const HeaderSection = () => {
