@@ -5,8 +5,8 @@ import styled from "styled-components";
 const Box = styled.div`
   width: 100vw;
   height: 100vh;
-
   background-image: url(${img});
+  opacity: 90%;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -21,6 +21,7 @@ const Box = styled.div`
   @media (max-width: 768px) {
     h1 {
       font-size: 30px;
+      margin-top: 50%;
       text-align: left;
       padding-left: 10px;
     }

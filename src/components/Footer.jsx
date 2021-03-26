@@ -9,11 +9,7 @@ const Foot = styled.div`
 `;
 
 const Footer = () => {
-  return (
-    <Foot>
-      <div>© Józef Wolf</div>
-    </Foot>
-  );
+  return <Foot>{/* <div>© Józef Wolf</div> */}</Foot>;
 };
 
 export default Footer;

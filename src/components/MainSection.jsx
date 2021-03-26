@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+import birds from "./imgs/birds.jpg";
+import crane from "./imgs/crane.jpg";
 
 const Main = styled.div`
   height: calc(100vh - 70px);
@@ -12,17 +14,42 @@ const Main = styled.div`
     ". ."
     ". .";
   div {
-    border: 1px solid black;
+  }
+  div:nth-child(1),
+  div:nth-child(4) {
+    display: flex;
+    padding: 30px;
+    align-items: center;
+  }
+  div:nth-child(2) {
+    background-image: url(${birds});
+    background-size: cover;
+    opacity: 60%;
+  }
+  div:nth-child(3) {
+    background-image: url(${crane});
+    background-size: cover;
+    opacity: 60%;
   }
 `;
 
 const MainSection = () => {
   return (
     <Main>
-      <div>1</div>
-      <div>2</div>
-      <div>3</div>
-      <div>4</div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga optio eos,
+        pariatur natus quos, incidunt rerum assumenda dolores porro blanditiis,
+        magni odit atque architecto vitae! Delectus laudantium sunt unde
+        debitis.
+      </div>
+      <div></div>
+      <div></div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, tempora
+        accusantium. Quasi corporis maxime ipsam iure similique quia, expedita
+        eum, iste saepe dignissimos recusandae, fuga in dolorem quae rem
+        eligendi.
+      </div>
     </Main>
   );
 };
