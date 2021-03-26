@@ -14,6 +14,16 @@ const Info = styled.div`
 
   div {
     font-size: 170px;
+    text-align: center;
+  }
+  p {
+    font-size: 30px;
+  }
+  @media (max-width: 768px) {
+    flex-direction: column;
+    div {
+      font-size: 100px;
+    }
   }
 `;
 
@@ -22,12 +32,15 @@ const InfoSection = () => {
     <Info>
       <div>
         <IoCameraOutline />
+        <p>lorem picsum</p>
       </div>
       <div>
         <RiCameraLensLine />
+        <p>picsum iksum</p>
       </div>
       <div>
         <BsHouseDoor />
+        <p>fiksum diksum</p>
       </div>
     </Info>
   );
