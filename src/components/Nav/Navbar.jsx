@@ -4,6 +4,8 @@ import Burger from "./Burger";
 import { IoTriangle } from "react-icons/io5";
 
 const Nav = styled.nav`
+  position: fixed;
+  background-color: white;
   width: 100%;
   height: 70px;
   border-bottom: 2px solid #c9c9c9;

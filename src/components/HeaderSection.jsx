@@ -4,7 +4,8 @@ import styled from "styled-components";
 
 const Box = styled.div`
   width: 100vw;
-  height: 85vh;
+  height: 100vh;
+
   background-image: url(${img});
   background-size: cover;
   display: flex;
