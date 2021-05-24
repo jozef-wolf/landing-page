@@ -5,8 +5,9 @@
 #### [go to Landing page](http://jozef-wolf.github.io/landing-page/)
 
 
-![](design1.jpg) 
+
+![](design1.jpg)
 ![](design2.jpg)
-![](design3.JPG) 
+![](design3.JPG)
 ![](mobiledesign.JPG)
 
