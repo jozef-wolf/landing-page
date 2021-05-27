@@ -10,7 +10,7 @@
 
 ![](design2.JPG)
 
-![](design3.JPG)
+![](design3JPG.JPG)
 
 ![](mobiledesign.JPG)
 
