@@ -6,9 +6,9 @@
 
 
 
-![](design1.jpg)
+![](design1.JPG)
 
-![](design2.jpg)
+![](design2.JPG)
 
 ![](design3.JPG)
 
